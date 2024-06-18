@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/escudo.png" sizes="16x16">
+  <title>Jogadores do Botafogo</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <!-- página com instruções para usar o SHA256 -->
+  <!-- https://pajhome.org.uk/crypt/md5/scripts.html -->
+  <div class="wrapper">
+    <div class="bg"> Botafogo </div>
+    <div class="fg"> Botafogo </div>
+  </div>
+
+  <div class="grid-container">
+    <!--    
+    <div class="item1"> <img src="images/logobotafogo.png" width="64" height="64">
+      <h1 style="color: white; margin: 0px; flex-grow: 1;">Jogadores do Botafogo 2024-1</h1>
+    </div>
+    -->
+    <div class="item1"><button button class="botao"></button></div>
+    <div class="item2">
+      <button class="botao" onclick="window.location.href = 'jogadores.html?time=masculino'">Masculino</button>
+      <button class="botao" onclick="window.location.href = 'jogadores.html?time=feminino'">Feminino</button>
+      <button class="botao" onclick="window.location.href = 'jogadores.html?time=all'">Elenco Completo</button>
+     
+    </div>
+
+    <div class="item3">
+      <button button class="botao" id="btn_sair">Sair</button>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+
+</body>
+
+</html>

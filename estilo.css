@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+body{
+  background-color: rgba(10,10,10,1);
+  background-image: url(images/logobotafogo20%.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position-x:50%;
+  background-position-y:800;
+  background-repeat: no-repeat;
+  
+
+}
+p,
+a {
+  font-family: 'Neuton', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Alumni Sans Inline One', sans-serif;
+  font-weight: normal;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: #000000;
+  padding: 5px;
+}
+
+.grid-container>div {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px 0;
+}
+
+.item1 {
+  display: flex;
+}
+
+.item2 {
+  text-align: center;
+
+}
+
+.item3 {
+  text-align: right;
+}
+
+.botao {
+  font-family: 'Georgia, Times New Roman, Times, serif';
+  font-weight: normal;
+  font-size: 20px;
+  background-color: #000000;
+  border: none;
+  color: #ffb338;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.busca {
+  text-align: center;
+  margin: 30px auto 2em;
+  display: flex;
+  text-align: center;
+  line-height: 3em;
+  max-width: 80%;
+  width: 30em;
+  border-Radius: 30pt
+}
+
+.card {
+
+}
+
+.nome {
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --gold: #ffb338;
+  --light-shadow: #77571d;
+  --dark-shadow: #3e2904;
+}
+body {
+  margin: 0;
+}
+.wrapper {
+  background: radial-gradient(#272727, #1b1b1b);
+  display: grid;
+  grid-template-areas: 'overlap';
+  place-content: center;
+  text-transform: uppercase;
+  height: 10vh;
+}
+.wrapper > div {
+  background-clip: text;  
+  -webkit-background-clip: text;
+  color: #363833;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: clamp( 3em, 18vw, 1rem);
+  grid-area: overlap;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 4px transparent;
+}
+div.bg {
+  background-image: repeating-linear-gradient( 105deg, 
+    var(--gold) 0% , 
+    var(--dark-shadow) 5%,
+    var(--gold) 12%);
+  color: transparent;
+  filter: drop-shadow(5px 15px 15px black);
+  transform: scaleY(1.05);
+  transform-origin: top;
+}
+div.fg{
+  background-image: repeating-linear-gradient( 5deg,  
+    var(--gold) 0% , 
+    var(--light-shadow) 23%, 
+    var(--gold) 31%);
+  color: #1e2127;
+  transform: scale(1);
+}
+
